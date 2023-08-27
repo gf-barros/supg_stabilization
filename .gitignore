@@ -1,0 +1,9 @@
+*.pvd
+*.vtu
+*.msh
+*.xml
+*.pvtu
+*.vtk
+results/*
+*.ipynb_checkpoints
+.DS_Store
