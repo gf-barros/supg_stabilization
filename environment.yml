@@ -1,0 +1,9 @@
+name: supg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fenics
+  - jupyterlab
+  - matplotlib
+  - ipywidgets=7.7.2

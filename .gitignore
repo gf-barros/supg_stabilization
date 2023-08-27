@@ -4,6 +4,7 @@
 *.xml
 *.pvtu
 *.vtk
-results/*
+navier_stokes_cavity/results/*
+convection_diffusion_velocity/results/*
 *.ipynb_checkpoints
 .DS_Store
