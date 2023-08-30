@@ -83,7 +83,7 @@ bcs = [bc_left, bc_top, bc_right, bc_bottom]
 # ================= Variational Form ====================
 F = v * dot(velocity, grad(dphi)) * dx + k * dot(grad(v), grad(dphi)) * dx - f * v * dx
 
-if SUPG:
+if SUPG and Pe > 0:
     r = dot(velocity, grad(dphi)) - k * div(grad(dphi)) - f
     vnorm = sqrt(dot(velocity, velocity))
     delta = h / (2.0 * vnorm)
