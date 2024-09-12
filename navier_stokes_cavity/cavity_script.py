@@ -103,10 +103,8 @@ parameters["form_compiler"]["cpp_optimize"] = True
 
 # ========= Simulation parameters =========
 SUPG = True  # Enables SUPG stabilization
-Fr = 1.0  # Froude number
 Re = 100  # Reynolds number
 N = 25  # Number of nodes per dimension
-f = (1.0 / (Fr**2)) * Constant((0.0, 0.0))  # body forces
 nu = Constant(1.0 / Re)  # 1/Re for simplification
 
 # ========= Simulation setup =========
