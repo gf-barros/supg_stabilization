@@ -105,6 +105,7 @@ parameters["form_compiler"]["cpp_optimize"] = True
 SUPG = True  # Enables SUPG stabilization
 Re = 100  # Reynolds number
 N = 25  # Number of nodes per dimension
+f = Constant((0.0, 0.0))  # No body forces
 nu = Constant(1.0 / Re)  # 1/Re for simplification
 
 # ========= Simulation setup =========
